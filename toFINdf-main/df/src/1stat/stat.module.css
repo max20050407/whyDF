@@ -1,0 +1,18 @@
+.Stat{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 32px 1fr 32px;
+    grid-template-rows: 32px 1fr 32px;
+}
+.list{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    height: 100%;
+    width: 100%;
+    gap: 32px;
+}

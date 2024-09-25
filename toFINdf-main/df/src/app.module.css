@@ -1,0 +1,58 @@
+@font-face{
+    font-family: "Futura PT";
+    src: url("./font/FuturaPT-Book.woff2")format(".woff2")
+    ,    url("./font/FuturaPT-Book.woff") format(".woff")
+    ,    url("./font/FuturaPT-Book.eot")  format(".eot")
+    ,    url("./font/FuturaPT-Book.ttf")  format(".ttf");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; 
+}
+@font-face{
+    font-family: "Futura PT";
+    src: url("./font/FuturaPT-Light.woff2")format(".woff2")
+    ,    url("./font/FuturaPT-Light.woff") format(".woff")
+    ,    url("./font/FuturaPT-Light.eot")  format(".eot")
+    ,    url("./font/FuturaPT-Light.ttf")  format(".ttf");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; 
+}
+@font-face{
+    font-family: "Futura PT";
+    src: url("./font/FuturaPT-Medium.woff2")format(".woff2")
+    ,    url("./font/FuturaPT-Medium.woff") format(".woff")
+    ,    url("./font/FuturaPT-Medium.eot")  format(".eot")
+    ,    url("./font/FuturaPT-Medium.ttf")  format(".ttf");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; 
+}
+.App{
+    font-family: 'Futura PT', sans-serif;
+    background-color: #A2B7DF;
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 64px 3fr 64px 1fr 64px;
+    grid-template-rows: 128px 64px 1fr 64px;
+}
+.Header{
+    grid-column: 1/6;
+    height: 100%;
+    width: 100%;
+    box-shadow: 0px 0px 16px rgba(0,0,0,0.25);
+}
+.Stat{
+    grid-column: 2/3;
+    grid-row: 3/5;
+    box-shadow: 0px 0px 16px rgba(0,0,0,0.25);
+}
+.User{
+    grid-column: 4/5;
+    grid-row: 2/4;
+    box-shadow: 0px 0px 16px rgba(0,0,0,0.25);
+}

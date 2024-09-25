@@ -1,0 +1,37 @@
+.Stat{
+    border-radius: 64px;
+    border: 2px solid;
+    border-color: #0C457E;
+
+    flex: 1 1 calc(50% - 32px);
+    box-sizing: border-box;
+
+    padding: 32px;
+    display: flex;
+    gap: 16px;
+}
+.ava{
+    aspect-ratio: 1/1;
+    height: 100%;
+    border: #0C457E solid 2px;
+    border-radius: 50%;
+}
+.nameAprog{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.name{
+    height: 100%;
+    width: 100%;
+    border: #0C457E 2px solid;
+    border-radius: 64px;
+}
+.prog{
+    height: 100%;
+    width: 100%;
+    border: #0C457E 2px solid;
+    border-radius: 64px;
+}

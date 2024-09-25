@@ -1,0 +1,15 @@
+.Res{
+    color: black;
+    background-color: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur (32px);
+    border: 2px solid rgb(12, 69, 126);
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    white-space: nowrap;
+    
+}
+.res{
+    margin: 32px;
+    white-space: nowrap;
+}
